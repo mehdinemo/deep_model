@@ -1,0 +1,10 @@
+{
+  "connection_string_classification": "DRIVER={ODBC Driver 17 for SQL Server};SERVER=192.168.30.251;DATABASE=Classification;UID=sa;PWD=Aa123456",
+  "connection_string_concepts": "DRIVER={ODBC Driver 17 for SQL Server};SERVER=192.168.30.251;DATABASE=Concepts;UID=sa;PWD=Aa123456",
+
+  "epochs": 5,
+  "batch_size": 64,
+
+  "label_threshhold": 0.4,
+  "train_percent": 1
+}
